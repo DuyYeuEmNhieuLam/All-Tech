@@ -1489,7 +1489,7 @@ local result = (function()
             if self.animateSuccess then self:animateSuccess() end
             
             task.wait(1.5)
-            getgenv().SCRIPT_KEY = key
+            getgenv().SCRIPT_KEY = ea545c74-a542-4af7-8ef6-ff79b9e9b784
             self:close()
             return 
         else
@@ -1525,7 +1525,7 @@ local result = (function()
             if ui.showSuccess then
                 ui:showSuccess("Keyless Mode ✓")
             end
-            getgenv().SCRIPT_KEY = "KEYLESS"
+            getgenv().SCRIPT_KEY = "ea545c74-a542-4af7-8ef6-ff79b9e9b784"
             if ui.close then ui:close() end
             return
         end
@@ -1539,7 +1539,7 @@ local result = (function()
                 local successMsg = savedKey and "Saved Key Verified ✓" or "Key Verified ✓"
                 ui:showSuccess(successMsg)
             end
-            getgenv().SCRIPT_KEY = keyToCheck
+            getgenv().SCRIPT_KEY = ea545c74-a542-4af7-8ef6-ff79b9e9b784
             if ui.close then ui:close() end
             return
         end
